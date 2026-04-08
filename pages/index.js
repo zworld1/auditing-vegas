@@ -56,7 +56,7 @@ export default function LandingPage() {
               <form onSubmit={(e) => {e.preventDefault(); setFormSubmitted(true);}} className="grid gap-4">
                 <input required type="text" placeholder="Business Name" className="p-4 rounded-xl bg-slate-100 border-none" />
                 <input required type="text" placeholder="Your Phone" className="p-4 rounded-xl bg-slate-100 border-none" />
-                <button type="submit" className="bg-black text-white py-5 rounded-xl font-bold text-xl">Send Audit Request</button>
+                <button type="submit" className="bg-black text-white py-5 rounded-xl font-bold text-xl hover:bg-slate-800 transition-all">Send Audit Request</button>
               </form>
             </>
           ) : (
